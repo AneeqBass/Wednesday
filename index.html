@@ -89,26 +89,48 @@
     <ol>Start gyming harder</ol>
     <ol>Fix bad sleeping habits</ol>
     <hr>
-    <form action="#" method="post">
-        <label for="Name">Name:</label>
-        <input type="text" id="Name" name="Name" required>
-        <label for="Surname">Surname:</label>
-        <input type="text" id="Surname" name="Surname" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="Date of birth">Date Of birth:</label>
-        <input type="date" id="Date of birth" name="Date of birth" required>
-        <label for="Gender">Gender:</label>
-        <input type="gender" id="Gender" name="Gender" required>
-        <label for="Nationality">Nationality:</label>
-        <input type="text" id="Nationality" name="Nationality" required> <br>
-        <label for="Ethnicity">Ethnicity:</label>
-        <input type="text" id="Ethnicity" name="Ethnicity" required>
-        <label for="Year matriculated">Year matriculated:</label>
-        <input type="number" id="year matriculated" name="Year matriculated" required>
-        <input type="submit" value="Register">
+
+    <form
+        action="https://formspree.io/f/xvoedoya"
+        method="POST"
+        >
+        <label>
+            Your Name:
+            <input type="text" name="name">
+        </label>
+        <label>
+            Your Surname:
+            <input type="text" name="surname">
+        </label>
+        <label>
+            Your Email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Your Date of Birth:
+            <input type="date" name="dateOfBirth">
+        </label>
+        <label>
+            Your Gender:
+            <input type="gender" name="gender">
+        </label>
+        <label>
+            Your Nationality:
+            <input type="text" name="nationality">
+        </label>
+        <label>
+            Your Ethnicity:
+            <input type="text" name="ethnicity">
+        </label>
+        <label>
+            Your Year Matriculated:
+            <input type="number" name="year matriculated">
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
     </form>
-    <hr>
+     <hr>
+
     </div>
 </body>
 </html>
